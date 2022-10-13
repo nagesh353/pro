@@ -1,0 +1,7 @@
+<h1>Welcome to the chat page</h1>
+<ul id="u1">
+   <li class="i1">chats</li>
+    <a><li class="i1">Addpersons</li></a>
+    <button><li class="btn btn-danger" (click)="goback()">Logout</li></button>
+</ul>
+<div *ngFor ="let m of message" class="d1"><button (click)="page(m)"  class="cc"><p id="p1">{{m.name}}</p></button></div>

@@ -1,0 +1,39 @@
+#d1
+{
+
+   /* background-image: linear-gradient(white,green,blue);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* height: 100vh; */
+    overflow: scroll;
+    color: black;
+    text-align: end;
+    
+ 
+}
+#icon {
+    height: 52px;
+    background-color: #ffffff;
+    width: 55px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-width: 0px;
+    color:green;
+    border: left outline 0px;
+}
+.textarea {
+    border-width: 0px;
+    background-color: aqua;
+}
+#p1
+{
+    border: 2px green solid;
+    border-radius: 12px;
+    width: 150px;
+    background-color: aqua;
+}
+.dd
+{
+    border: 0px;
+}

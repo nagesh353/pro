@@ -1,0 +1,39 @@
+<div class="con">
+     <mat-card id="m1"> 
+      <p class="ng">{{mess}}</p>
+
+        <mat-card-title>SignUp</mat-card-title>
+        <form class="form=group">
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Username</mat-label>
+              <input matInput placeholder="Enter name" required [(ngModel)]="Name" name="name" >
+            </mat-form-field>
+            <p class="ng" *ngIf="c">name should have 5 charecters</p>
+          
+            <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>Email</mat-label>
+              <input matInput placeholder="Enter email" required [(ngModel)]="Email" name="email" >
+            </mat-form-field>
+            <p class="ng" *ngIf="E">please enter valid mailid</p>
+
+            <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>password</mat-label>
+                <input matInput type={{eliyaz}} placeholder="password" required [(ngModel)]="password" name="password">
+              </mat-form-field>
+              <p *ngIf="p"></p>
+              <mat-form-field class="example-full-width" appearance="outline">
+                <mat-label>Mobileno</mat-label>
+                <input matInput  type="text" placeholder="Mobileno" required [(ngModel)]="number" name="mobilemo" pattern="[6-9][0-9]{9}">
+                
+              </mat-form-field><br>
+              <input type="checkbox" (click) ="check($event)" id="c1" >
+            <label id="c1">show password</label><br>
+      
+              <button mat-button  class="b" (click)="submit()">submit</button>
+              <br>
+          </form>
+          
+    </mat-card>
+</div>
+    
+    

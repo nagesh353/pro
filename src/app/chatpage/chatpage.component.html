@@ -1,0 +1,18 @@
+
+<h1 style="background-color: green;border-radius:10px; font-style: italic;padding-left: 10px;">{{name|uppercase}}</h1>
+<div id="d1">
+    <div *ngFor="let x of show">
+  <textarea style="color:black" class="m-3 text-end" id="p1" >{{x.text}}</textarea>
+        <div *ngIf="del">
+            <p>delete</p>
+        </div>
+    </div>
+    
+    <div class="container" >
+        <div class="d-flex flex-row">
+            <textarea style="width:80vw;" class="mb-3 ml-3 textarea" [(ngModel)]="message" ></textarea>
+          <button id="icon" (click)="text()"><i class="fa fa-send"></i></button>
+        </div>
+    </div>
+</div>
+

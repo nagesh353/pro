@@ -1,0 +1,29 @@
+<div>
+
+  <mat-card id="m1" > 
+      <mat-card-title>Login</mat-card-title>
+      <form class="formgroup">
+            <mat-label>username</mat-label>
+            <form>
+              <mat-form-field class="example-full-width" appearance="outline">
+              <input matInput placeholder="name" required [(ngModel)]="Name" name="Email" type="email">
+              </mat-form-field>
+              <p *ngIf="b" class="err">please enter valid email</p><br>
+            </form>
+          <mat-form-field class="example-full-width" appearance="outline">
+              <mat-label>password</mat-label>
+              <input matInput type={{val}} placeholder="password" required [(ngModel)]="password" name="password">
+            </mat-form-field><br>
+            <p *ngIf= pass class="err"> passsword should contain min 7 charecters</p>
+            <input type="checkbox" (click) ="check($event)" id="c1" >
+            <label id="c1">show password</label><br>
+            <br>
+            <button mat-button color="primary" class="btn btn-primary"(click)="log()">Login</button>
+            <p>Don't have account <a routerLink="signup">signup?</a></p>
+        </form>
+        <p class="err">{{out}}</p>
+        
+  </mat-card>
+  </div>
+  
+  

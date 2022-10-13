@@ -1,0 +1,45 @@
+
+
+.in
+{
+    margin: 3px;
+}
+.b
+{
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#i1
+{
+    font-style: normal;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.ng
+{
+    display: block;
+    color:red;
+}
+.dd
+{
+    display :block;
+}
+#f1
+{
+    text-align: center;
+}
+#m1
+{
+   margin-left: 400px; 
+
+   text-align: center;
+   border: 2px black solid;
+   width: 300px;
+   margin-top: 100px;
+}
+#c1
+{
+    margin-right: 3px;
+}

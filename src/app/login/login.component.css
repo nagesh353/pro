@@ -1,0 +1,44 @@
+
+.in
+{
+    margin: 3px;
+}
+.b
+{
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.err
+{
+    color:red;
+    display: block;
+    font-size: 15px;
+}
+#m1
+{
+   margin-left: 400px; 
+
+   text-align: center;
+   border: 2px black solid;
+   width: 300px;
+   border-radius: 15px;
+   margin-top: 100px;
+}
+.b
+{
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.con
+{
+    border: 2px black solid;
+    margin-left: 400px;
+    margin-top: 200px;
+    text-align:center ;
+}
+#c1
+{
+    margin-left: 5px;
+}
